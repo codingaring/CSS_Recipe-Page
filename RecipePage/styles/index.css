@@ -1,0 +1,146 @@
+@import "./global.css";
+
+/** 
+- Mobile: 375px
+- Desktop: 1440px
+**/
+
+/** 레이아웃 **/
+body {
+  font-family: "Outfit";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+  background-color: var(--Eggshell);
+}
+
+main {
+  width: 73.6rem;
+  background-color: var(--White);
+  border-radius: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 4rem;
+  margin: 12.3rem auto;
+}
+
+.landing-img {
+  height: 30rem;
+  align-self: stretch;
+  border-radius: 1.2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.subscribe {
+  display: flex;
+  padding: 2.8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+  align-self: stretch;
+
+  border-radius: 1.2rem;
+  background-color: var(--Snow);
+  margin: 3.2rem 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  align-self: stretch;
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--WhiteCoffee);
+}
+
+/** 공통 요소 **/
+.wengeBrown-body_Regular {
+  color: var(--WengeBrown);
+}
+
+.brandyRed-body_Bold {
+  color: var(--BrandyRed);
+  font-weight: 700;
+}
+
+/** header 세부 요소 **/
+.title {
+  color: var(--DarkCharcoal);
+
+  font-family: "Young Serif";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4rem;
+}
+
+/** subscribe 세부 요소 **/
+.subscribe-title {
+  color: var(--DarkRaspberry);
+
+  font-family: Outfit;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.description-container {
+  color: var(--WengeBrown);
+
+  font-family: Outfit;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.emphasis {
+  color: var(--WengeBrown);
+
+  font-family: Outfit;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+/** ingredients 세부 요소 **/
+.content-title {
+  color: var(--BrandyRed);
+
+  font-family: "Young Serif";
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+/** nutrition 세부 요소 **/
+.grid-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.grid-cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
