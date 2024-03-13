@@ -102,12 +102,14 @@ main {
 
 .description-container {
   color: var(--WengeBrown);
+  list-style-position: inside;
+  padding-left: 0;
 
   font-family: Outfit;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 3rem;
 }
 
 .emphasis {
@@ -131,6 +133,26 @@ main {
   line-height: 2.8rem;
 }
 
+.circle-list {
+  list-style-image: url("../assets/images/icons/dot.svg");
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+/** Instructions 세부 요소**/
+
+ol {
+  margin-left: 2rem;
+  text-indent: -2rem;
+}
+
+ol > li::marker {
+  list-style-position: outside;
+  color: var(--BrandyRed);
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
 /** nutrition 세부 요소 **/
 .grid-container {
   width: 100%;
@@ -142,5 +164,11 @@ main {
 .grid-cell {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 30rem;
+}
+
+.grid-left {
+  padding-left: 4rem;
+  width: 4rem;
 }
