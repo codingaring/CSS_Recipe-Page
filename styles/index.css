@@ -152,6 +152,11 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 3rem;
+
+  @media screen and (max-width: 375px) {
+    margin-left: 3.2rem;
+    text-indent: -3.2rem;
+  }
 }
 
 .emphasis {
