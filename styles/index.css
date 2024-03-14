@@ -111,6 +111,11 @@ main {
   }
 }
 
+.space {
+  min-width: 2rem;
+  visibility: hidden;
+}
+
 /** header 세부 요소 **/
 .title {
   color: var(--DarkCharcoal);
@@ -179,8 +184,8 @@ main {
 /** Instructions 세부 요소**/
 
 ol {
-  margin-left: 2rem;
-  text-indent: -2rem;
+  margin-left: 3.2rem;
+  text-indent: -3.2rem;
 }
 
 ol > li::marker {
